@@ -2,6 +2,71 @@
   text-align: center;
 }
 
+.header{
+  background: black;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+}
+
+.menu{
+  padding: 0px;
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+.menu img{
+  width: 42px;
+}
+.menu_item{
+  padding-left: 20px;
+
+}
+.menu_item a{
+  display: inline-flex;
+  margin-top: 10px;
+}
+.menu a:hover, .menu a:visited, .menu a:link, .menu a:active
+{
+    text-decoration: none;
+    color: #f0f6fc;
+}
+.menu a:hover{
+    color: #f0f6fcb3;
+}
+.menu_item input{
+  display: table-cell;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    border: 0;
+    box-shadow: none;
+  border-radius: 5px;
+  width: 246px;
+  height: 100%;
+  background: none;
+  padding: 0
+}
+
+.underline-nav{
+  margin-top: 30px;
+}
+.underline-nav-items{
+  display: flex;
+  padding: 0px;
+  display: flex;
+  list-style: none;
+  margin-left: 280px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
